@@ -29,7 +29,9 @@ export default {
       response => {
         this.seller = response.body.seller;
       },
-      response => {}
+      response => {
+        console.log(11);
+      }
     );
   },
   components: {
